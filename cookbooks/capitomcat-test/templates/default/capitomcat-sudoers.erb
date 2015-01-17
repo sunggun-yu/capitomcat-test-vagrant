@@ -1,0 +1,6 @@
+# This file is managed by Chef for Capitomcat test
+# Do NOT modify this file directly.
+
+jenkins ALL=NOPASSWD:<%= @cmd %>
+jenkins ALL=(<%= @tomcat_user %>) NOPASSWD:ALL
+<%= @tomcat_user %> ALL=NOPASSWD:<%= @cmd %>

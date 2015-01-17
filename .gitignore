@@ -1,0 +1,5 @@
+# Mac Directory #
+.DS_Store
+
+# Vagrant #
+.vagrant
