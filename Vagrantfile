@@ -20,7 +20,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   end
 
   # Define base image
-  config.vm.box = "chef/centos-6.5"
+  config.vm.box = "oracle5.9-64"
+  config.vm.box = "https://storage.us2.oraclecloud.com/v1/istoilis-istoilis/vagrant/oracle59-64.box"
 
   config.vm.network "forwarded_port", guest: 8080, host: 8888
 
