@@ -17,7 +17,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.berkshelf.enabled = false
 
   # Define base image
-  config.vm.box = "chef/centos-6.5"
+  config.vm.box = "centos-5.6-64"
+  config.vm.box_url = 'http://dl.dropbox.com/u/9227672/centos-5.6-x86_64-netinstall-4.1.6.box'
 
   config.vm.network "forwarded_port", guest: 8080, host: 8888
 
