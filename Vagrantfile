@@ -20,7 +20,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   end
 
   # Define base image
-  config.vm.box = "chef/centos-6.5"
+  config.vm.box = "centos-5.9-64"
+  config.vm.box = "http://tag1consulting.com/files/centos-5.9-x86-64-minimal.box"
 
   config.vm.network "forwarded_port", guest: 8080, host: 8888
 
