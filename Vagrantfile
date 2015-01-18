@@ -16,7 +16,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.omnibus.chef_version = :latest
 
   # Define base image
-  config.vm.box = "chef/centos-6.5"
+  config.vm.box = "chef/centos-7.0"
 
   config.vm.network "forwarded_port", guest: 8080, host: 8888
 
