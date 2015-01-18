@@ -20,16 +20,16 @@ https://wiki.jenkins-ci.org/display/JENKINS/Capitomcat+Plugin
 
 OS name and version|Test result|`PTY option` that pass the test| Desc |Vagrant Box 
 ---|---|---|---|---
-CentOS 5.6 x86_64				| <span style="background-color:green; color:white; padding: 3px 8px">Passed</span>    | <span style="background-color:blue; color:white; padding: 3px 8px">TRUE</span><span style="background-color:magenta; color:white; padding: 3px 8px">FALSE</span>| | https://github.com/sunggun-yu/capitomcat-test-vagrant/tree/platform/centos5.6-64 |
-CentOS 5.9 x86_64				| <span style="background-color:orange; color:white; padding: 3px 8px">Partial</span>    | <span style="background-color:magenta; color:white; padding: 3px 8px">FALSE</span> | 1. Starting Tomcat script is hang when PTY is TRUE, even though "Default requiretty" is set in sudoers file | https://github.com/sunggun-yu/capitomcat-test-vagrant/tree/platform/centos5.9-64
-CentOS 6.5 x86_64				| <span style="background-color:orange; color:white; padding: 3px 8px">Partial</span>    | <span style="background-color:magenta; color:white; padding: 3px 8px">FALSE</span> | Same with CentOS 5.9 | https://github.com/sunggun-yu/capitomcat-test-vagrant/tree/platform/centos6.5-64
-CentOS 7.0 x86_64				| <span style="background-color:green; color:white; padding: 3px 8px">Passed</span>    | <span style="background-color:blue; color:white; padding: 3px 8px">TRUE</span><span style="background-color:magenta; color:white; padding: 3px 8px">FALSE</span> |  | https://github.com/sunggun-yu/capitomcat-test-vagrant/tree/platform/centos7.0-64
-Oracle Linux 5.9 x86_64			| <span style="background-color:orange; color:white; padding: 3px 8px">Partial</span>    | <span style="background-color:magenta; color:white; padding: 3px 8px">FALSE</span> | Same with CentOS 5.9 | https://github.com/sunggun-yu/capitomcat-test-vagrant/tree/platform/oracle5.9-64
-Oracle Linux 6.5 x86_64			| <span style="background-color:orange; color:white; padding: 3px 8px">Partial</span>    | <span style="background-color:magenta; color:white; padding: 3px 8px">FALSE</span> | Same with CentOS 5.9 | https://github.com/sunggun-yu/capitomcat-test-vagrant/tree/platform/oracle6.5-64
-Ubuntu Precise 12.04 LTS x86_64	| <span style="background-color:green; color:white; padding: 3px 8px">Passed</span>    | <span style="background-color:blue; color:white; padding: 3px 8px">TRUE</span><span style="background-color:magenta; color:white; padding: 3px 8px">FALSE</span> | | https://github.com/sunggun-yu/capitomcat-test-vagrant/tree/platform/ubuntu12.04-64
-Ubuntu Trusty 14.04 LTS x86_64	| <span style="background-color:green; color:white; padding: 3px 8px">Passed</span>    | <span style="background-color:blue; color:white; padding: 3px 8px">TRUE</span><span style="background-color:magenta; color:white; padding: 3px 8px">FALSE</span> | | https://github.com/sunggun-yu/capitomcat-test-vagrant/tree/platform/ubuntu14.04-64
-Fedora 19 x86_64				| <span style="background-color:green; color:white; padding: 3px 8px">Passed</span>    | <span style="background-color:blue; color:white; padding: 3px 8px">TRUE</span><span style="background-color:magenta; color:white; padding: 3px 8px">FALSE</span> | | https://github.com/sunggun-yu/capitomcat-test-vagrant/tree/platform/fedora19-64
-Fedora 20 x86_64				| <span style="background-color:green; color:white; padding: 3px 8px">Passed</span>    | <span style="background-color:blue; color:white; padding: 3px 8px">TRUE</span><span style="background-color:magenta; color:white; padding: 3px 8px">FALSE</span> | | https://github.com/sunggun-yu/capitomcat-test-vagrant/tree/platform/fedora20-64
+CentOS 5.6 x86_64				| PASSED    | TRUE / FALSE| | https://github.com/sunggun-yu/capitomcat-test-vagrant/tree/platform/centos5.6-64 |
+CentOS 5.9 x86_64				| PARTIAL   | FALSE | 1. Starting Tomcat script is hang when PTY is TRUE, even though "Default requiretty" is set in sudoers file | https://github.com/sunggun-yu/capitomcat-test-vagrant/tree/platform/centos5.9-64
+CentOS 6.5 x86_64				| PARTIAL   | FALSE | Same with CentOS 5.9 | https://github.com/sunggun-yu/capitomcat-test-vagrant/tree/platform/centos6.5-64
+CentOS 7.0 x86_64				| PASSED    | TRUE / FALSE |  | https://github.com/sunggun-yu/capitomcat-test-vagrant/tree/platform/centos7.0-64
+Oracle Linux 5.9 x86_64			| PARTIAL   | FALSE | Same with CentOS 5.9 | https://github.com/sunggun-yu/capitomcat-test-vagrant/tree/platform/oracle5.9-64
+Oracle Linux 6.5 x86_64			| PARTIAL   | FALSE | Same with CentOS 5.9 | https://github.com/sunggun-yu/capitomcat-test-vagrant/tree/platform/oracle6.5-64
+Ubuntu Precise 12.04 LTS x86_64	| PASSED    | TRUE / FALSE | | https://github.com/sunggun-yu/capitomcat-test-vagrant/tree/platform/ubuntu12.04-64
+Ubuntu Trusty 14.04 LTS x86_64	| PASSED    | TRUE / FALSE | | https://github.com/sunggun-yu/capitomcat-test-vagrant/tree/platform/ubuntu14.04-64
+Fedora 19 x86_64				| PASSED    | TRUE / FALSE | | https://github.com/sunggun-yu/capitomcat-test-vagrant/tree/platform/fedora19-64
+Fedora 20 x86_64				| PASSED    | TRUE / FALSE | | https://github.com/sunggun-yu/capitomcat-test-vagrant/tree/platform/fedora20-64
 
 ## Jenkins Setting
 ### Main settings
