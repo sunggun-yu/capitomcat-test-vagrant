@@ -15,7 +15,7 @@
 	url = https://github.com/edelight/chef-solo-search.git
 [submodule "cookbooks/openssl"]
 	path = cookbooks/openssl
-	url = git@github.com:opscode-cookbooks/openssl.git
+	url = https://github.com/opscode-cookbooks/openssl.git
 [submodule "cookbooks/tomcat_latest"]
 	path = cookbooks/tomcat_latest
 	url = https://github.com/sunggun-yu/tomcat_latest.git
