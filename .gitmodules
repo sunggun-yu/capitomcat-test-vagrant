@@ -19,3 +19,6 @@
 [submodule "cookbooks/tomcat_latest"]
 	path = cookbooks/tomcat_latest
 	url = https://github.com/sunggun-yu/tomcat_latest.git
+[submodule "webapps/capitomcat-test-webapp"]
+	path = webapps/capitomcat-test-webapp
+	url = https://github.com/sunggun-yu/capitomcat-test-webapp.git
