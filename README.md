@@ -5,8 +5,8 @@ http://capitomcat.sunggun.me
 https://wiki.jenkins-ci.org/display/JENKINS/Capitomcat+Plugin
 
 ## Tested Capitomcat version
-### Last test date : 1/18/2015
-- Capitomcat Jenkins plugin 0.0.9
+### Last test date : 1/21/2015
+- Capitomcat Jenkins plugin 0.0.10
  - Capitomcat 1.1.4 (A Capistrano recipe which is dependency of Capitomcat Jenkins plugin)
  - Capistrano 3.1.0
  
