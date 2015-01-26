@@ -20,7 +20,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   end
 
   # Define base image
-  config.vm.box = "chef/centos-6.5"
+  config.vm.box = "chef/opensuse-13.1"
 
   config.vm.network "forwarded_port", guest: 8080, host: 8888
 
