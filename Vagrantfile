@@ -20,7 +20,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   end
 
   # Define base image
-  config.vm.box = "ubuntu/trusty64"
+  config.vm.box = "chef/ubuntu-14.04"
 
   config.vm.network "forwarded_port", guest: 8080, host: 8888
 
